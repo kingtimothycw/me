@@ -13,11 +13,11 @@ class Main extends Component {
     return (
         <HashRouter>
             <div>
-                <h1>Simple SPA</h1>
+                {/* <h1>Simple SPA</h1> */}
                 <ul className="header">
-                    <li><NavLink exact to="/">Home</NavLink></li>
-                    <li><NavLink to="/stuff">Stuff</NavLink></li>
-                    <li><NavLink to="/contact">Contact</NavLink></li>
+                    <li><NavLink exact to="/" class="nav-tab">Home</NavLink></li>
+                    <li><NavLink to="/stuff" class="nav-tab">Stuff</NavLink></li>
+                    <li><NavLink to="/contact" class="nav-tab">Contact</NavLink></li>
                 </ul>
                 <div className="content">             
                    <Route exact path="/" component={Home}/>

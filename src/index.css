@@ -1,5 +1,5 @@
 body {
-    background-color: #FFCC00;
+    background-color: #33334d;
     padding: 20px;
     margin: 0;
   }
@@ -7,13 +7,14 @@ body {
     font-family: sans-serif;
   }
   ul.header li {
-    display: inline;
+    display: inline;    
     list-style-type: none;
     margin: 0;
   }
   ul.header {
     background-color: #111;
-    padding: 0;
+    padding: 0;  
+    text-align: center;  
   }
   ul.header li a {
     color: #FFF;
@@ -21,6 +22,9 @@ body {
     text-decoration: none;
     padding: 20px;
     display: inline-block;
+  }
+  ul.header li a:hover {
+    color: #0099FF;
   }
   .content {
     background-color: #FFF;
@@ -33,6 +37,3 @@ body {
   .content li {
     margin-bottom: 10px;
   }
-.active {
-    background-color: #0099FF;
-}
